@@ -1,0 +1,59 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+ 
+body{ 
+    height: 100vh; 
+    background-color: #999; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+} 
+ 
+.card{ 
+    background: #333; 
+    width: fit-content; 
+    border-radius: 10px; 
+ overflow: hidden;
+    text-align: center; 
+ 
+} 
+ 
+.user-image { 
+    position: absolute;
+    transform: translate(-50px, -50px); 
+    width: 100px; 
+    height: 100px; 
+    object-fit: cover; 
+    border-radius: 50%; 
+    border: 5px solid red; 
+} 
+ 
+.name{ 
+    color: red; 
+    margin-top: 100px;
+} 
+ 
+.email, .job{ 
+    color: aliceblue; 
+} 
+ 
+.social-media-links{ 
+    margin-top: 20px; 
+ 
+} 
+ 
+.social-media-links i{ 
+    color: aliceblue; 
+    background-color: red; 
+    padding: 10px; 
+    border-radius: 50%; 
+} 
+.footer{ 
+    background-color: red; 
+    margin-top: 10px; 
+    padding: 10px 10px; 
+    color: aliceblue; 
+}
